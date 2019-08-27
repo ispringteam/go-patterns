@@ -37,11 +37,11 @@ require (
 
 ## log
 
-Модуль `"github.com/ispringteam/go-patterns/infrastructure/log"` объявляет интерфейс `log.Logger`. Детали показаны в статье [Бережная обработка ошибок в микросервисах](habr.com/ru/post/459130/).
+Модуль `"github.com/ispringteam/go-patterns/infrastructure/log"` объявляет интерфейс `log.Logger`. Детали показаны в статье [Бережная обработка ошибок в микросервисах](https://habr.com/ru/post/459130/).
 
 ## jsonlog
 
-Модуль `"github.com/ispringteam/go-patterns/infrastructure/jsonlog"` реализует интерфейс `log.Logger`. Детали показаны в статье [Бережная обработка ошибок в микросервисах](habr.com/ru/post/459130/).
+Модуль `"github.com/ispringteam/go-patterns/infrastructure/jsonlog"` реализует интерфейс `log.Logger`. Детали показаны в статье [Бережная обработка ошибок в микросервисах](https://habr.com/ru/post/459130/).
 
 Пример:
 
