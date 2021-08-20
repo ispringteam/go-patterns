@@ -33,21 +33,21 @@ require (
 
 ## errors
 
-Модуль `"github.com/ispringteam/go-patterns/infrastructure/errors"` предоставляет функции, дополняющие пакет [github.com/pkg/errors](https://github.com/pkg/errors).
+Модуль `"github.com/ispringtech/go-patterns/infrastructure/errors"` предоставляет функции, дополняющие пакет [github.com/pkg/errors](https://github.com/pkg/errors).
 
 ## log
 
-Модуль `"github.com/ispringteam/go-patterns/infrastructure/log"` объявляет интерфейс `log.Logger`. Детали показаны в статье [Бережная обработка ошибок в микросервисах](https://habr.com/ru/post/459130/).
+Модуль `"github.com/ispringtech/go-patterns/infrastructure/log"` объявляет интерфейс `log.Logger`. Детали показаны в статье [Бережная обработка ошибок в микросервисах](https://habr.com/ru/post/459130/).
 
 ## jsonlog
 
-Модуль `"github.com/ispringteam/go-patterns/infrastructure/jsonlog"` реализует интерфейс `log.Logger`. Детали показаны в статье [Бережная обработка ошибок в микросервисах](https://habr.com/ru/post/459130/).
+Модуль `"github.com/ispringtech/go-patterns/infrastructure/jsonlog"` реализует интерфейс `log.Logger`. Детали показаны в статье [Бережная обработка ошибок в микросервисах](https://habr.com/ru/post/459130/).
 
 Пример:
 
 ```go
 import (
-	"github.com/ispringteam/go-patterns/infrastructure/jsonlog"
+	"github.com/ispringtech/go-patterns/infrastructure/jsonlog"
 )
 
 func main() {

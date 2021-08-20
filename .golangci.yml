@@ -13,7 +13,7 @@ linters-settings:
   govet:
     check-shadowing: true
   goimports:
-    local-prefixes: "github.com/ispringteam/go-patterns"
+    local-prefixes: "github.com/ispringtech/go-patterns"
   gocritic:
     enabled-tags:
       - opinionated

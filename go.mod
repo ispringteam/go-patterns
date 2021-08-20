@@ -1,4 +1,4 @@
-module github.com/ispringteam/go-patterns
+module github.com/ispringtech/go-patterns
 
 go 1.12
 

@@ -5,8 +5,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/ispringteam/go-patterns/infrastructure/jsonlog/hooks"
-	"github.com/ispringteam/go-patterns/infrastructure/log"
+	"github.com/ispringtech/go-patterns/infrastructure/jsonlog/hooks"
+	"github.com/ispringtech/go-patterns/infrastructure/log"
 )
 
 const appNameKey = "app_name"

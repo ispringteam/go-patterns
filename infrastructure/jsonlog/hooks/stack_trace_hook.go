@@ -3,7 +3,7 @@ package hooks
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/ispringteam/go-patterns/infrastructure/errors"
+	"github.com/ispringtech/go-patterns/infrastructure/errors"
 )
 
 type StackTraceHook struct{}
