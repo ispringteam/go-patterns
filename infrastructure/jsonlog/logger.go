@@ -34,6 +34,7 @@ func NewLogger(config *Config) log.MainLogger {
 	impl.SetFormatter(&logrus.JSONFormatter{
 		TimestampFormat: time.RFC3339Nano,
 		FieldMap:        fieldMap,
+		PrettyPrint:     config.PrettyPrint,
 	})
 	impl.SetLevel(logrus.Level(config.Level))
 	impl.AddHook(new(hooks.StackTraceHook))

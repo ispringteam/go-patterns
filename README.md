@@ -54,6 +54,7 @@ func main() {
 	logger := jsonlog.NewLogger(&jsonlog.Config{
 			Level:   jsonlog.InfoLevel,
 			AppName: "mymicroservice",
+			PrettyPrint: true,
 	})
 	// ...
 }
